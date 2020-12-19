@@ -69,8 +69,8 @@ rxnsToAdd.subSystems = cellfun(@(s) {{s}}, rxnsToAdd.subSystems);
 
 
 %% Gap-filling for biomass formation
-[wormGEM, gapfillNetwork]=gapfill4Biomass(wormGEM,ihuman);
-% Added 37 reactions for gap-filling
+[wormGEM, gapfillNetwork]=gapfill4EssentialTasks(wormGEM,ihuman);
+% Added 36 reactions for gap-filling
 
 
 %% Save the model into mat, yml, and xml
