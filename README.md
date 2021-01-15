@@ -1,5 +1,5 @@
 
-# Worm-GEM: The generic genome-scale metabolic model of _Mus musculus_
+# Worm-GEM: The generic genome-scale metabolic model of _Caenorhabditis elegans_
 
 [![GitHub version](https://badge.fury.io/gh/sysbiochalmers%2FWorm-GEM.svg)](https://badge.fury.io/gh/sysbiochalmers%2FWorm-GEM)
 
