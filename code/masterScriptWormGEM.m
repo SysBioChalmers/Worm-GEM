@@ -77,6 +77,6 @@ rxnsToAdd.subSystems = cellfun(@(s) {{s}}, rxnsToAdd.subSystems);
 
 wormGEM.id = 'Worm-GEM';
 save('../model/Worm-GEM.mat', 'wormGEM');
-writeHumanYaml(wormGEM, '../model/Worm-GEM.mat');
+writeHumanYaml(wormGEM, '../model/Worm-GEM.yml');
 exportModel(wormGEM, '../model/Worm-GEM.xml');
 
