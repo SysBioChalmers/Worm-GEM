@@ -35,7 +35,7 @@ Manuscript under preparation
 
 |Taxonomy | Template Model | Reactions | Metabolites| Genes |
 | ------------- |:-------------:|:-------------:|:-------------:|:-----:|
-|_Caenorhabditis elegans_ |   Human-GEM |  12169  | 8158 | 1946 |
+|_Caenorhabditis elegans_ |   Human-GEM |  12201  | 8183 | 1949 |
 
 
 ## Installation
