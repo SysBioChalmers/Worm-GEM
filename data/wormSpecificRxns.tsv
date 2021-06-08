@@ -58,4 +58,4 @@ rxns	equations	ub	lb	eccodes	subSystems	grRules	rxnReferences	rxnConfidenceScore
 "MA-R20084"	"Ascaroside1[c] => Ascaroside1[s]"	1000	0	""	"Ascaroside transport and biosynthesis"	""	""	0	""	""	""	""
 "MA-R20085"	"Ascaroside7[c] => Ascaroside7[s]"	1000	0	""	"Ascaroside transport and biosynthesis"	""	""	0	""	""	""	""
 "MA-R20086"	"Ascaroside2[c] => Ascaroside2[s]"	1000	0	""	"Ascaroside transport and biosynthesis"	""	""	0	""	""	""	""
-"MA-R20087"	"9 H+[c] + 3 malonyl-CoA[c] + 6 NADPH[c] + stearoyl-CoA[c] => 3 CO2[c] + 3 CoA[c] + 3 H2O[c] + 6 NADP+[c] + lignocericylCoA[c]"	1000	0	"2.3.1.199;1.1.1.330;4.2.1.134;1.3.1.93"	"Fatty acid elongation"	"elo-1 and let-767 and hpo-8 and art-1"	""	2	""	""	""	""
+"MA-R20087"	"9 H+[c] + 3 malonyl-CoA[c] + 6 NADPH[c] + stearoyl-CoA[c] => 3 CO2[c] + 3 CoA[c] + 3 H2O[c] + 6 NADP+[c] + lignocericylCoA[c]"	1000	0	"2.3.1.199;1.1.1.330;4.2.1.134;1.3.1.93"	"Fatty acid elongation (even-chain)"	"elo-1 and let-767 and hpo-8 and art-1"	""	2	""	""	""	""
