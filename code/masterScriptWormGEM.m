@@ -44,6 +44,6 @@ if isequal(rxnAssoc.rxns, wormGEM.rxns) && isequal(metAssoc.mets, wormGEM.mets)
 end
 
 save('../model/Worm-GEM.mat', 'wormGEM');
-writeYaml(wormGEM, '../model/Worm-GEM.yml');
+exportYaml(wormGEM, '../model/Worm-GEM.yml');
 exportModel(wormGEM, '../model/Worm-GEM.xml');
 
