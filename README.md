@@ -52,7 +52,7 @@ This repository contains the latest version of Worm-GEM, a worm genome-scale met
 
 
 ### Installation Instructions
-* Clone the [master branch](https://github.com/SysBioChalmers/Worm-GEM/tree/master) of this repository, or [download the latest release](https://github.com/SysBioChalmers/Worm-GEM/releases/latest).
+* Clone the [main branch](https://github.com/SysBioChalmers/Worm-GEM/tree/main) of this repository, or [download the latest release](https://github.com/SysBioChalmers/Worm-GEM/releases/latest).
 * Add the directory to your MATLAB path (instructions [here](https://se.mathworks.com/help/matlab/ref/addpath.html?requestedDomain=www.mathworks.com)).
 
 
@@ -60,7 +60,7 @@ This repository contains the latest version of Worm-GEM, a worm genome-scale met
 
 #### Loading/saving the model
 
-`Worm-GEM.mat` (Recommended if on `master` branch)
+`Worm-GEM.mat` (Recommended if on `main` branch)
 * Load and save using the built-in MATLAB `load()` and `save()` functions.
 
 `Worm-GEM.xml` (SBML format)
