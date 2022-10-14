@@ -43,9 +43,9 @@ if isequal(rxnAssoc.rxns, wormGEM.rxns) && isequal(metAssoc.mets, wormGEM.mets)
     exportTsvFile(metAssoc,'../model/metabolites.tsv');
 end
 
-wormGEM = annotateGEM(wormGEM,'../model',{'rxn','met'});  % add annotation data to structure
-wormGEM.id = regexprep(wormGEM.id,'-','');  % remove dash from model ID since it causes problems with SBML I/O
 save('../model/Worm-GEM.mat', 'wormGEM');
 exportYaml(wormGEM, '../model/Worm-GEM.yml');
+wormGEM = annotateGEM(wormGEM,'../model',{'rxn','met'});  % add annotation data to structure
+wormGEM.id = regexprep(wormGEM.id,'-','');  % remove dash from model ID since it causes problems with SBML I/O
 exportModel(wormGEM, '../model/Worm-GEM.xml');
 
