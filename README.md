@@ -35,7 +35,7 @@ This repository contains the latest version of Worm-GEM, a worm genome-scale met
 
 |Taxonomy | Template Model | Reactions | Metabolites| Genes |
 | ------------- |:-------------:|:-------------:|:-------------:|:-----:|
-|_Caenorhabditis elegans_ |   Human-GEM |  12174  | 8138 | 1732 |
+|_Caenorhabditis elegans_ |   Human-GEM |  12175  | 8140 | 1732 |
 
 
 ## Installation
