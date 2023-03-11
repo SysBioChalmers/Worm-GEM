@@ -18,7 +18,7 @@ addpath(genpath('../../Worm-GEM/'));
 %% Prepare Worm ortholog pairs and species-specific network
 
 % get ortholog pairs from human to worm
-wormOrthologPairs = extractAllianceGenomeOrthologs('human2WormOrthologs.json');
+wormOrthologPairs = extractAllianceGenomeOrthologs('human2WormOrthologs.tsv');
 
 % load species-specific rxns and mets
 rxnsToAdd = importTsvFile('wormSpecificRxns.tsv');
