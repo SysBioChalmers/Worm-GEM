@@ -18,7 +18,7 @@ addpath(genpath('../../Worm-GEM/'));
 %% Prepare Worm ortholog pairs and species-specific network
 
 % get ortholog pairs from human to worm
-wormOrthologPairs = extractAllianceGenomeOrthologs('human2WormOrthologs.json');
+wormOrthologPairs = extractAllianceGenomeOrthologs('human2WormOrthologs.tsv');
 
 % load species-specific rxns and mets
 rxnsToAdd = importTsvFile('wormSpecificRxns.tsv');
@@ -43,6 +43,7 @@ if isequal(rxnAssoc.rxns, wormGEM.rxns) && isequal(metAssoc.mets, wormGEM.mets)
     exportTsvFile(metAssoc,'../model/metabolites.tsv');
 end
 
+wormGEM.geneShortNames = wormGEM.genes;
 save('../model/Worm-GEM.mat', 'wormGEM');
 exportYaml(wormGEM, '../model/Worm-GEM.yml');
 wormGEM = annotateGEM(wormGEM,'../model',{'rxn','met'});  % add annotation data to structure
