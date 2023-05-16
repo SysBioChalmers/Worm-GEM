@@ -43,6 +43,7 @@ if isequal(rxnAssoc.rxns, wormGEM.rxns) && isequal(metAssoc.mets, wormGEM.mets)
     exportTsvFile(metAssoc,'../model/metabolites.tsv');
 end
 
+wormGEM.geneShortNames = wormGEM.genes;
 save('../model/Worm-GEM.mat', 'wormGEM');
 exportYaml(wormGEM, '../model/Worm-GEM.yml');
 wormGEM = annotateGEM(wormGEM,'../model',{'rxn','met'});  % add annotation data to structure
