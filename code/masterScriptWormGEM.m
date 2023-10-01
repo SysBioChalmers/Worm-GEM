@@ -27,7 +27,7 @@ metsToAdd = importTsvFile('wormSpecificMets.tsv');
 
 %% Generate Worm-GEM
 [wormGEM, speciesSpecNetwork, gapfillNetwork]=updateAnimalGEM(...
-    wormOrthologPairs,rxnsToAdd,metsToAdd,'Worm-GEM');
+    wormOrthologPairs,rxnsToAdd,metsToAdd,'Worm-GEM','true');
 
 
 %% Update annotation files
