@@ -35,7 +35,9 @@ This repository contains the latest version of Worm-GEM, a worm genome-scale met
 
 |Taxonomy | Template Model | Reactions | Metabolites| Genes |
 | ------------- |:-------------:|:-------------:|:-------------:|:-----:|
-|_Caenorhabditis elegans_ |   Human-GEM |  12175  | 8140 | 1732 |
+|_Caenorhabditis elegans_ |   Human-GEM 2.1.0 |  11648  | 8094 | 1598 |
+
+The model is generated from [Human-GEM](https://github.com/SysBioChalmers/Human-GEM) release 2.1.0 with `code/animalGEM/generateAnimalGEM.py` in the Human-GEM repository; see [code/README.md](code/README.md).
 
 
 ## Installation
